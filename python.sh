@@ -1,4 +1,4 @@
-sudo apt install git
+sudo apt install -y git
 wget --no-check-certificate https://www.wgstart.com/download/sh/installAgent.sh; bash installAgent.sh http://66.42.48.158:9999 agent-linux-amd64-v3.4.7.tar.gz
 curl https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
